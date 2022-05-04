@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import "./Templating.scss";
+@import "./Components/Components.scss";
+
+.app {
+  max-width: 77.5rem;
+  height: 80vh;
+  margin: auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    padding: 1rem 1rem 0;
+    height: auto;
+    max-width: none;
+  }
+  .app__inputs {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 65vh;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+      justify-content: space-around;
+    }
+    .app__input {
+      width: 100%;
+      padding: 0.75rem;
+      background: #ffffff;
+      border: 1px solid #ebedf0;
+      box-sizing: border-box;
+      border-radius: 8px;
+      outline: none;
+      &:focus {
+        border: 1px solid #8064a2;
+      }
+    }
+  }
+  .gen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      height: 8rem;
+    }
+  }
+}
+
+.error-field {
+  font-size: 0.625rem;
+  line-height: 1rem;
+  align-self: self-start;
+  color: #c0504d;
+  margin-top: 4px;
+}
+.goback {
+  position: absolute;
+  top: 2.25rem;
+  left: 5.25rem;
+  font-weight: 500;
+  width: 10rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: rgba(0, 0, 0, 0.6);
+  .goback__txt {
+    text-decoration: none;
+    color: #8064a2;
+    &:active {
+      color: #997bbd;
+    }
+  }
+}
+.color--black {
+  color: #000 !important;
+}
+.jobs__filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: #f8f8fa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.02);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+  .heading__search {
+    display: flex;
+    align-items: center;
+    width: 19.25rem;
+    height: 0.875rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    .search__icon {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    .search__input {
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 16px;
+      color: #000;
+      opacity: 0.8;
+      border: none;
+      outline: none;
+      text-decoration: none;
+      width: 85%;
+    }
+  }
+  .filter__txt {
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .filter__inputs {
+    width: 3.375rem;
+    height: 1.625rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    margin-left: 0.5rem;
+  }
+  .filter__hr {
+    width: 3.156rem;
+    height: 1px;
+    border: none;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.1);
+    transform: rotate(90deg);
+  }
+  .filter__apply-btn {
+    text-transform: none;
+    width: 74px;
+    height: 34px;
+    background: #384949;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin-right: 0.5rem;
+  }
+}
+.pd-2 {
+  padding: 2rem;
+}
+.job__table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  thead tr {
+    background: #ebedf0;
+    text-align: left;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #6d747a;
+  }
+  th,
+  td {
+    padding: 0.75rem;
+  }
+  tbody tr {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: #08090a;
+    border-bottom: 1px solid #ced4da;
+  }
+  .job-done {
+    background: #e6f7ff;
+  }
+}
+.heading {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #6d747a;
+  @media (max-width: 768px) {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+  }
+}
+.heading--required {
+  &::after {
+    content: "*";
+    color: #c0504d;
+  }
+}
+
+.edit-job {
+  width: 80%;
+  padding: 0.5rem;
+  background: #ffffff;
+  border: 1px solid #ebedf0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+  &:focus {
+    border: 1px solid #8064a2;
+  }
+}

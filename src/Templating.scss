@@ -1,0 +1,276 @@
+button {
+  cursor: pointer;
+  font-family: Poppins;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+.app,
+body {
+  font-family: Poppins !important;
+}
+.valign-mid {
+  vertical-align: middle;
+}
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+.bg-trans {
+  background-color: transparent;
+}
+.disable-scroll {
+  position: fixed;
+  overflow: hidden;
+}
+.btn--disabled {
+  opacity: 0.4;
+  cursor: auto;
+  pointer-events: none;
+}
+.error-border {
+  border: 1px solid #c0504d !important;
+}
+.brd-r-50 {
+  border-radius: 50%;
+}
+.bg-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+//---------------------------------- Color-section ----------------------------//
+
+.color--black {
+  color: #000 !important;
+}
+.color--white {
+  color: #fff !important;
+}
+.color--purple {
+  color: #8064a2 !important;
+}
+.color--grey-light {
+  color: #ced4da !important;
+  &:hover {
+    color: #6d747a !important;
+  }
+}
+.color--grey-darker {
+  color: #6d747a !important;
+}
+.color--grey-dark {
+  color: #939ca3 !important;
+}
+.color--grey-darkest {
+  color: #08090a !important;
+}
+
+//---------------------------------- Margin-section ----------------------------//
+.m-a-0 {
+  margin: 0 !important;
+}
+.m-r-12 {
+  margin-right: 0.75rem !important;
+}
+.m-r-8 {
+  margin-right: 0.5rem !important;
+}
+.m-r-24 {
+  margin-right: 1.5rem !important;
+}
+.m-l-16 {
+  margin-left: 1rem !important;
+}
+.m-l-24 {
+  margin-left: 1.5rem !important;
+}
+.m-b-8 {
+  margin-bottom: 0.5rem !important;
+}
+.m-b-12 {
+  margin-bottom: 0.75rem !important;
+}
+.m-b-16 {
+  margin-bottom: 1rem !important;
+}
+.m-b-24 {
+  margin-bottom: 1.5rem !important;
+}
+.m-b-32 {
+  margin-bottom: 2rem !important;
+}
+.m-t-4 {
+  margin-top: 0.25rem !important;
+}
+.m-t-8 {
+  margin-top: 0.5rem !important;
+}
+.m-t-12 {
+  margin-top: 0.75rem !important;
+}
+.m-t-16 {
+  margin-top: 1rem !important;
+}
+.m-t-24 {
+  margin-top: 1.5rem !important;
+}
+.m-t-32 {
+  margin-top: 2rem !important;
+}
+
+//---------------------------------- Padding-section ----------------------------//
+
+.pv-16-ph-24 {
+  padding: 1rem 1.5rem;
+}
+.p-l-8 {
+  padding-left: 0.5rem !important;
+}
+.p-a-12 {
+  padding: 0.75rem !important;
+}
+
+//---------------------------------- Flex-section ----------------------------//
+
+.df-ac {
+  display: flex;
+  align-items: center;
+}
+.df-as {
+  display: flex;
+  align-items: flex-start;
+}
+.df-ac-jb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.df-as-jb {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.df-ac-je {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.df-ac-ja {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.dfc {
+  display: flex;
+  flex-direction: column;
+}
+.dfc-ac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dfc-jc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.je {
+  justify-content: space-evenly;
+}
+//---------------------------------- Font-styling ----------------------------//
+
+.ft-wt-600 {
+  font-weight: 600 !important;
+}
+.ft-sz-8 {
+  font-size: 0.5rem !important;
+}
+.ft-sz-12 {
+  font-size: 0.75rem !important;
+}
+.ft-sz-14 {
+  font-size: 0.875rem !important;
+}
+.ln-ht-20 {
+  line-height: 1.25rem !important;
+}
+
+//---------------------------------- Width ----------------------------//
+
+.width-30 {
+  width: 30% !important;
+}
+.width-50 {
+  width: 50% !important;
+}
+.width-100 {
+  width: 100% !important;
+}
+
+//---------------------------------- Buttons ----------------------------//
+
+.gen-btn {
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  height: 2.5rem;
+  background: #8064a2;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #ffffff;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+  &:hover {
+    background: #997bbd;
+  }
+}
+
+.accept-btn {
+  padding: 0.75rem 1.5rem;
+  background: #8064a2;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #fff;
+  width: 75%;
+  margin-right: 1.5rem;
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 90%;
+    margin: 0;
+  }
+}
+.cancel-btn {
+  padding: 0.75rem 1.5rem;
+  background: #ffffff;
+  border: 1px solid #8064a2;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #8064a2;
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+    width: 90%;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+}

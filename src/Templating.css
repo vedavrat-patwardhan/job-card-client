@@ -1,0 +1,387 @@
+button {
+  cursor: pointer;
+  font-family: Poppins;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app,
+body {
+  font-family: Poppins !important;
+}
+
+.valign-mid {
+  vertical-align: middle;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.bg-trans {
+  background-color: transparent;
+}
+
+.disable-scroll {
+  position: fixed;
+  overflow: hidden;
+}
+
+.btn--disabled {
+  opacity: 0.4;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.error-border {
+  border: 1px solid #c0504d !important;
+}
+
+.brd-r-50 {
+  border-radius: 50%;
+}
+
+.bg-mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.color--black {
+  color: #000 !important;
+}
+
+.color--white {
+  color: #fff !important;
+}
+
+.color--purple {
+  color: #8064a2 !important;
+}
+
+.color--grey-light {
+  color: #ced4da !important;
+}
+
+.color--grey-light:hover {
+  color: #6d747a !important;
+}
+
+.color--grey-darker {
+  color: #6d747a !important;
+}
+
+.color--grey-dark {
+  color: #939ca3 !important;
+}
+
+.color--grey-darkest {
+  color: #08090a !important;
+}
+
+.m-a-0 {
+  margin: 0 !important;
+}
+
+.m-r-12 {
+  margin-right: 0.75rem !important;
+}
+
+.m-r-8 {
+  margin-right: 0.5rem !important;
+}
+
+.m-r-24 {
+  margin-right: 1.5rem !important;
+}
+
+.m-l-16 {
+  margin-left: 1rem !important;
+}
+
+.m-l-24 {
+  margin-left: 1.5rem !important;
+}
+
+.m-b-8 {
+  margin-bottom: 0.5rem !important;
+}
+
+.m-b-12 {
+  margin-bottom: 0.75rem !important;
+}
+
+.m-b-16 {
+  margin-bottom: 1rem !important;
+}
+
+.m-b-24 {
+  margin-bottom: 1.5rem !important;
+}
+
+.m-b-32 {
+  margin-bottom: 2rem !important;
+}
+
+.m-t-4 {
+  margin-top: 0.25rem !important;
+}
+
+.m-t-8 {
+  margin-top: 0.5rem !important;
+}
+
+.m-t-12 {
+  margin-top: 0.75rem !important;
+}
+
+.m-t-16 {
+  margin-top: 1rem !important;
+}
+
+.m-t-24 {
+  margin-top: 1.5rem !important;
+}
+
+.m-t-32 {
+  margin-top: 2rem !important;
+}
+
+.pv-16-ph-24 {
+  padding: 1rem 1.5rem;
+}
+
+.p-l-8 {
+  padding-left: 0.5rem !important;
+}
+
+.p-a-12 {
+  padding: 0.75rem !important;
+}
+
+.df-ac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.df-as {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.df-ac-jb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.df-as-jb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.df-ac-je {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.df-ac-ja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.dfc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dfc-ac {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dfc-jc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.je {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.ft-wt-600 {
+  font-weight: 600 !important;
+}
+
+.ft-sz-8 {
+  font-size: 0.5rem !important;
+}
+
+.ft-sz-12 {
+  font-size: 0.75rem !important;
+}
+
+.ft-sz-14 {
+  font-size: 0.875rem !important;
+}
+
+.ln-ht-20 {
+  line-height: 1.25rem !important;
+}
+
+.width-30 {
+  width: 30% !important;
+}
+
+.width-50 {
+  width: 50% !important;
+}
+
+.width-100 {
+  width: 100% !important;
+}
+
+.gen-btn {
+  cursor: pointer;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 32%;
+  height: 2.5rem;
+  background: #8064a2;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .gen-btn {
+    width: 100%;
+  }
+}
+
+.gen-btn:hover {
+  background: #997bbd;
+}
+
+.accept-btn {
+  padding: 0.75rem 1.5rem;
+  background: #8064a2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #fff;
+  width: 75%;
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .accept-btn {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    width: 90%;
+    margin: 0;
+  }
+}
+
+.cancel-btn {
+  padding: 0.75rem 1.5rem;
+  background: #ffffff;
+  border: 1px solid #8064a2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #8064a2;
+}
+
+@media (max-width: 768px) {
+  .cancel-btn {
+    padding: 0.5rem;
+    width: 90%;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=Templating.css.map */
